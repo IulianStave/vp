@@ -1,19 +1,20 @@
 <template>
-  <div class="container">
-    <h1>Vue Vacation Picker</h1>
+    <div class="container">
+        <VacationPicker/>
 
-  </div>
+    </div>
 </template>
 
 <script>
+    import VacationPicker from "./components/VacationPicker"
 
+    export default {
+        name: 'app',
+        components: {
+            VacationPicker
+      }
+    }
 
-export default {
-  name: 'app',
-  components: {
-
-  }
-}
 </script>
 
 <style>
