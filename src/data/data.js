@@ -4,10 +4,10 @@ const data = {
 	countries: [
 		{
 			id: 1,
-			name: 'USA',
-			capital: 'Washington',
+			name: 'Romania',
+			capital: 'Bucharest',
 			cost: 1250,
-			details: 'United States are among the most visited country in the world.',
+			details: 'There are a lot of wonderful places to visit',
 			img: 'washington.jpg'
 		},
 		{
